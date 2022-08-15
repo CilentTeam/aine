@@ -1,0 +1,11 @@
+let handler = async(m, { conn, text }) => {
+  let teks = `Halo Saya Akari-MD`
+				}
+                conn.sendMessage(m.chat, { text: teks }, {quoted: bug} )
+}
+handler.tags = ['owner']
+handler.command = /^(sendbug)$/i
+
+handler.owner = true
+
+module.exports = handler
